@@ -1,0 +1,116 @@
+.red__line{
+    background: #E08631;
+    width: 42px;
+    height: 8px;
+}
+.imgIconDiv{
+    width: 32px;
+    height: 32px;
+}
+.imgIconDiv2{
+    width: 36px;
+    height: 28px;
+}
+.imgIconDiv3{
+    width: 35px;
+    height: 36px;
+}
+.imgIconDiv4{
+    width: 36px;
+    height:27px;
+}
+.imgIconDiv5{
+    width: 36px;
+    height: 18px;
+}
+.imgIconDiv6{
+    width: 36px;
+    height: 33px;
+}
+.imgIconDiv7{
+    width: 23px;
+    height: 36px;
+}
+.imgIconDiv8{
+    width: 36px;
+    height: 36px;
+}
+
+.ThePerfect__Component{
+    padding: 100px 136px;
+}
+.grid__iconsCard{
+    display: grid;
+    grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+    gap:40px;
+    margin-top: 30px;
+}
+.ThePerfect__sarlavha{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+    margin-top: 30px;
+}
+.ThePerfect__description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+    width: 500px;
+    margin-top: 10px;
+}
+.grid__iconsCard h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503B;
+}
+.grid__iconsCard h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+
+@media(max-width:994px){
+    .ThePerfect__description{
+        width: initial;
+    }
+    .ThePerfect__Component{
+        padding: 100px 70px;
+    }
+  
+}
+
+
+
+@media(max-width:680px){
+    .grid__iconsCard{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media(max-width:486px){
+    .ThePerfect__Component{
+        padding: 70px 30px;
+    }
+    .grid__iconsCard h2{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .grid__iconsCard h3{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

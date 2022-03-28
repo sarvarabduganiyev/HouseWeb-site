@@ -1,0 +1,92 @@
+.componentBox{
+    padding: 90px 130px;
+    background-color: #FAF8F0;
+}
+.sabzirang__line{
+    background: #E08631;
+    width: 42px;
+    height: 8px;
+}
+.sleeping__sarlavha{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #52503B;
+    margin-top: 25px;
+}
+.sleeping__paragraf{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #52503B;
+    margin-top: 14px;
+}
+.grid__Box{
+    display: grid;
+    grid-template-columns: calc(33% - 20px) calc(33% - 20px) calc(33% - 20px);
+    gap: 60px;
+    margin-top: 30px;
+}
+.grid__Box p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #52503B;
+}
+.p__sarlavha{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+@media(max-width:950px){
+    .componentBox{
+        padding: 90px 100px;
+    }
+    .grid__Box{
+        grid-template-columns: calc(50% - 30px) calc(50% - 30px);
+        gap: 60px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:664px){
+    .componentBox{
+        padding: 50px 50px;
+    }
+    .grid__Box{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:416px){
+    .grid__Box p{
+        font-size: 12px;
+    }
+    .p__sarlavha{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .sleeping__sarlavha{
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .sleeping__paragraf{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+}
+

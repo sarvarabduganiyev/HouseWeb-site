@@ -1,0 +1,141 @@
+.glavniyDiv{
+    background: #FAF8F0;
+    padding: 90px 320px;
+}
+.glavniyDiv h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #52503B;
+    margin-top: 18px ;
+}
+.glavniyDiv h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #52503B;
+    margin-top: 12px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+.buttonContact{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 22px;
+    border: 3px solid #52503B;
+    border-radius: 6px;
+    color: #52503B;
+    transition: 0.3s ease;
+}
+.buttonContact:hover{
+    color: #FFFFFF;
+    background-color: #52503B;
+}
+.buttonBookNow{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 22px;
+    border: 3px solid #52503B;
+    border-radius: 6px;
+    background-color: #52503B;
+    margin-left: 18px;
+    transition: 0.3s ease;
+}
+.buttonBookNow:hover{
+    background-color: #FFFFFF;
+    color: #52503B;
+}
+
+
+@media(max-width:1095px){
+    .glavniyDiv{
+        padding: 90px 150px;
+    }
+}
+
+@media(max-width:803px){
+    .glavniyDiv{
+        padding: 90px 100px;
+    }
+}
+
+
+@media(max-width:613px){
+    .glavniyDiv{
+        padding: 50px;
+    }
+}
+
+@media(max-width:545px){
+    .glavniyDiv h1{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .glavniyDiv h5{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .buttonContact{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 20px;
+        border: 2px solid #52503B;
+    }
+    .buttonBookNow{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 20px;
+        border: 2px solid #52503B;
+        margin-left: 18px;
+    }
+}
+
+@media(max-width:405px){
+    .glavniyDiv{
+        padding: 30px;
+    }
+    .glavniyDiv h1{
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 16px;
+    }
+    .glavniyDiv h5{
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 8px;
+    }
+    .buttonContact{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 20px;
+        border: 2px solid #52503B;
+    }
+    .buttonBookNow{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 20px;
+        border: 2px solid #52503B;
+        margin-left: 18px;
+    }
+}
+
+

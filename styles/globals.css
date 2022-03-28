@@ -1,16 +1,99 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media(max-width:1920px) {
+  .max__w{
+    max-width: 1440px;
+    padding: 0px 100px;
+    margin: 0 auto;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@media(max-width:1440px) {
+  .max__w{
+    max-width: 1336px;
+    padding: 0px 100px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:1336px) {
+  .max__w{
+    max-width: 1200px;
+    padding: 0px 90px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:1200px) {
+  .max__w{
+    max-width: 1000px;
+    padding: 0px 80px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:1000px) {
+  .max__w{
+    max-width: 800px;
+    padding: 0px 70px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:800px) {
+  .max__w{
+    max-width: 700px;
+    padding: 0px 50px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:700px) {
+  .max__w{
+    max-width: 600px;
+    padding: 0px 40px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:600px) {
+  .max__w{
+    max-width: 500px;
+    padding: 0px 30px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:500px) {
+  .max__w{
+    max-width: 400px;
+    padding: 0px 10px;
+    margin: 0 auto;
+  }
 }
 
-* {
-  box-sizing: border-box;
+/* _____________________________________________________________ */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #033831;
+  /* border-radius: 5px;  */
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.red__line{
+  width: 42px;
+  height: 8px;
+  background-color: #E08631;
 }

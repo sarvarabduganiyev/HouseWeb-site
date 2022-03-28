@@ -1,0 +1,260 @@
+.bg__houseDiv{
+    background-image: url("../public/img/hosue.png");
+    background-color: burlywood;
+    background-size: cover;
+    background-position: center;
+    min-height: 780px !important;
+    color: #fff;
+}
+.bg__house__WordsDiv{
+    padding: 0px 133px;
+   
+}
+
+.bg__house__WordsDiv h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bg__house__WordsDiv h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+/* WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW */
+
+/* #app { height: 100% } */
+
+/* body {
+  position: relative;
+  height: 100%;
+} */
+
+
+
+
+
+/*  SWIPER ___-----___________-----------____________-----------__ */
+
+.carusel__bg{
+    background-color: #FAF8F0;
+    padding: 90px 0px 50px 120px;
+}
+.sarlavhalar__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sarlavhalar__box h2{
+    font-family: 'Montserrat';
+    font-style: normal; 
+    font-weight: 400;
+    margin-top: 24px;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #52503B;
+}
+.sarlavhalar__box h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    text-align: center;
+    color: #52503B;
+    width: 550px;
+}
+.carusel__sarlavha{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 5px;
+}
+.carusel__description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin-top:5px
+}
+.auther{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    padding: 0px 0px 0px 10px;
+    border-left: 2px solid #E08631;
+    margin-top: 15px;
+}
+.rating{
+    display:flex !important; 
+}
+.red__line{
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+}
+
+.carusel__card{
+    background-color: white;
+    width: 580px;
+    margin-top: 25px;
+    /* height: 260px; */
+    padding: 33px 47px 31px 31px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+
+  
+/* sssssssssssssssssssssssssssssssssssssssssssss */
+
+
+
+@media (max-width:950px){
+    .bg__house__WordsDiv{
+        padding: 0px 50px; 
+    }
+ 
+.bg__house__WordsDiv h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.bg__house__WordsDiv h6{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.imgCenter{
+    width:200px !important;
+    height: 50px !important;
+}   
+}
+
+@media (max-width:659px){
+    .bg__house__WordsDiv{
+        padding: 0px 50px;
+    }
+    .bg__house__WordsDiv h1{
+        font-size: 25px;
+        line-height: 32px;
+        margin-top: 30px;
+    }
+
+    .bg__house__WordsDiv h6{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .imgCenter{
+        width:170px !important;
+        height: 40px !important;
+    }   
+}
+@media (max-width:547px){
+    .bg__house__WordsDiv{
+        padding: 0px 30px;
+    }
+    .bg__house__WordsDiv h1{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 50px;
+    }
+
+    .bg__house__WordsDiv h6{
+        font-size: 10px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .imgCenter{
+        width:170px !important;
+        height: 40px !important;
+    }   
+}
+
+@media (max-width:449px){
+    
+    .bg__house__WordsDiv h1{
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 50px;
+    }
+
+    .bg__house__WordsDiv h6{
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+    .imgCenter{
+        width:170px !important;
+        height: 40px !important;
+    }   
+}
+
+@media (max-width:395px){
+    .bg__house__WordsDiv{
+        padding: 0px 10px;
+    }
+    .bg__house__WordsDiv h1{
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    .bg__house__WordsDiv h6{
+            font-size: 7px;
+            line-height: 15px;
+            margin-top: 20px;
+    }
+    .imgCenter{
+         width:170px !important;
+         height: 40px !important;
+    }   
+}
+

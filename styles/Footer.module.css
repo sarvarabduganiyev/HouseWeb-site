@@ -1,0 +1,160 @@
+.glavniyComponent{
+    background-color: #52503B;
+    padding: 90px 120px;
+    color: #FFFFFF;
+
+}
+.glavniyComponent ul li{
+    margin-top: 7px;
+}
+.glavniyComponent ul li a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.social__media h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.inputBigBox h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.inputBigBox h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 500px;
+}
+.social__svgIconDiv{
+    margin-top: 15px;
+}
+.social__svgIconDiv svg:nth-child(2){
+    margin-left: 25px;
+}
+.social__svgIconDiv svg:nth-child(3){
+    margin-left: 25px;
+}
+.inputBigBox form{
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    width: 500px;
+    height: 25px;
+    border-radius: 8px;
+    color: black;
+    padding: 20px 11px 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+.inputBigBox form input{
+    background-color:#F9FAFBFF;
+ 
+    width: 100%;
+}
+.inputBigBox form input:focus{
+    outline: none;
+    
+}
+.inputBigBox form button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #52503B;
+    border-radius: 10px;
+    padding: 5px;
+}
+.footerLogoDiv h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.footerLogoDiv h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media(max-width:1082px){
+    .glavniyBetween{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .glavniyBetween li {
+        text-align: center;
+    }
+    .social__media{
+        margin-top: 30px;
+    }
+    .inputBigBox h2,.inputBigBox h5{
+        text-align: center;
+    }
+    .inputBigBox h2{
+        margin-top: 30px;
+    }
+    .footerLogoDiv{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:548px){
+    .inputBigBox form{
+        width: 300px;
+        padding: 20px 11px 20px 30px;
+        display: flex;
+        margin-top: 9px;
+    }
+    .formDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputBigBox h5{
+        width: initial;
+    }
+    .footerLogoDiv h2{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .footerLogoDiv h3{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .inputBigBox h5{
+        margin-top: 10px;
+    }
+    .inputBigBox h2, .inputBigBox h5{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
